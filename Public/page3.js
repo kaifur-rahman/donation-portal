@@ -36,9 +36,9 @@ var options = {
         //{
         //};
         //$.post("/home.html",);
-        alert(paymentIdGenerated);
-        alert(orderIdGenerated);
-        alert(signatureGenerated);
+        //alert(paymentIdGenerated);
+        //alert(orderIdGenerated);
+        //alert(signatureGenerated);
         location.replace("/success.html");
     },
     "prefill": {
