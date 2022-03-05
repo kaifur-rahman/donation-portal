@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Donation</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="Resources/favicon.png">
+    <!--/favicon-->
+    <!--custom css-->
+    <link rel="stylesheet" href="page2.css">
+    <!--/custom css-->
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <!--/bootstrap-->
+    <!--bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!--/bootstrap icon-->
+  </head>
+  <body>
+    <!--main content-->
+    <main>
+    <div class="container">
+      <div class="row formContainer">
+        <div class="col-12">
+          <h1>Receipt Details</h1>
+          <h6 class="orderIdTitle d-block mx-auto">Donation ID:
+            <i class="orderId">#</i></h6>
+          <form class="" action="orderGenerate.html" method="post">
+            <div class="form-row rowContainer"><!--first row of form-->
+              <div class="form-group col-md-12">
+                <label class="formLabel" for="firstName">Name<i class="crossIcn1 bicustom bi bi-x-circle"></i></label>
+                <input type="text" class="form-control inputBox d-block mx-auto" id="inputFname" placeholder="First Name" name="firstName">
+              </div>
+              <div class="form-group col-md-12 lastNameContainer">
+                <input type="text" class="form-control inputBox d-block mx-auto" id=inputLname placeholder="Last Name" name="lastName">
+              </div>
+            </div>
+            <!--second row of form-->
+            <div class="form-row rowContainer">
+              <div class="form-group col-md-12">
+                <label class="formLabel" for="email">Email<i class="crossIcn2 bicustom bi bi-x-circle"></i></label>
+                <input type="email" class="form-control inputBox d-block mx-auto" id="inputEmail" placeholder="abc@example.com" name="email">
+              </div>
+            </div>
+            <!--/second row-->
+            <!--third row-->
+            <div class="form-row rowContainer">
+              <div class="form-group col-md-12">
+                <label class="formLabel" for="inputState">Donatate For</label>
+                <select id="inputState" class="form-control inputBox d-block mx-auto" name="donatedFor">
+                  <option selected>Choose...</option>
+                  <option>Hunger Support</option>
+                  <option>Education Support</option>
+                  <option>Marriage Support</option>
+                </select>
+              </div>
+            </div>
+            <!--/third row-->
+            <!--fourth row-->
+            <div class="from-row rowContainer">
+              <div class="form-group col-md-12">
+                <label class="formLabel" for="amount">Amount<i class="crossIcn3 bicustom bi bi-x-circle"></i></label>
+                <input type="number" class="form-control inputBox d-block mx-auto" id="amount" name="amount" placeholder="Rs">
+              </div>
+            </div>
+            <!--/fourth row-->
+            <!--fifth row-->
+            <div class="form-row rowContainer">
+              <div class="form-group">
+                <div class="form-check checkButton">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label  class="form-check-label" for="gridCheck">I provide my concern to utilize my donated fund for none other than charity</label>
+                </div>
+            </div>
+            <!--/fifth row-->
+            <button type="submit" id="submitbtn" class="btn btn-dark subBtn disabled">Proceed </button>
+            <button onclick="history.back()" type="button" id="backbtn" class="btn btn-dark subBtn">Back</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--/main content-->
+  <footer>
+    <div class="container-fluid footer-container">
+      <div class="row">
+        <div class=" icon-container col-sm-12 col-lg-12 col-md-12">
+          <a href="#"><i class="bi foot-icn bi-facebook"></i></a>
+          <a href="#"><i class="bi foot-icn bi-instagram"></i></a>
+          <a href="#"><i class="bi foot-icn bi-envelope"></i></a>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <hr>
+        <h6>Developer |<a href="https://www.linkedin.com/in/kaifur-rahman/" target="_blank" class="footer-credit"> Kaifur Rahman 2022 &copy;</h6></a>
+
+      </div>
+    </div>
+  </div>
+  </footer>
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--jquery-->
+  <!--custom js-->
+  <script src="page2.js">
+  </script>
+  <!--/custom js-->
+    <!--bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--/bootstrap js-->
+  </body>
+</html>

@@ -1,0 +1,79 @@
+h1{
+  text-align: center;
+  margin-top: 1rem!important;
+}
+.orderIdTitle{
+  margin-top: 1.5rem!important;
+  font-style: italic;
+  text-align: center!important;
+}
+.orderId{
+  color:#808080;
+}
+.orderIdFinal{
+  color:#F90000;
+}
+/*form*/
+.inputBox{
+  width: 50%!important;
+  margin-top: 0.5rem;
+}
+.formLabel{
+  position: relative;
+  left: 25%;
+  font-weight: bold;
+}
+.rowContainer{
+  margin-top: 1.5rem;
+}
+.lastNameContainer{
+  margin-top: 0.7rem;
+}
+.form-control:focus{
+  border-color:#ffffff!important;
+  box-shadow: 0px 0px 3px 1px rgba(66,66,66,1)!important;
+}
+
+/*/form*/
+
+/*footer*/
+.footer-container{
+  margin-top: 2.5rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+.icon-container{
+  position: relative;
+  top: 0.5rem;
+}
+.foot-icn{
+  margin-left: 0.8rem;
+  margin-top: 2rem;
+  color: white;
+}
+.footer-rule{
+  color: white;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.footer-credit{
+  color: white;
+  text-decoration: none;
+}
+/*/footer*/
+/*responsiveness*/
+@media (max-width: 768px){
+  body{
+    background-color: !important;
+  }
+  .inputBox{
+    width: 100%!important;
+  }
+  .formLabel{
+    position: relative;
+    left: 0%;
+}
+
+/*/responsiveness*/

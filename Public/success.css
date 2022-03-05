@@ -1,0 +1,55 @@
+/*navbar*/
+.navbar{
+  background-color: black;
+}
+.offcanvas_custom{
+  background-color: black!important;
+}
+.nav_item_custom{
+  margin-left: 1.5rem;
+}
+/*/navbar*/
+
+/*main*/
+.containerMain{
+  margin-top: 10rem;
+  text-align: center;
+}
+.heading1{
+  color: black!important;
+}
+.checkIcon{
+  font-size: 5rem;
+  color: green;
+}
+/*/main*/
+
+/*footer*/
+.footer-container{
+  margin-top: 4rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.icon-container{
+  position: relative;
+  top: 0.5rem;
+}
+.foot-icn{
+  margin-left: 0.8rem;
+  margin-top: 2rem;
+  color: white;
+}
+.footer-rule{
+  color: white;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.footer-credit{
+  color: white;
+  text-decoration: none;
+}
+/*/footer*/

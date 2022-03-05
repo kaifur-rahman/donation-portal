@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding:0;
+}
+/*navbar*/
+.navbar{
+  background-color: black;
+}
+.offcanvas_custom{
+  background-color: black!important;
+}
+.nav_item_custom{
+  margin-left: 1.5rem;
+}
+/*/navbar*/
+
+/*home*/
+.home-container{
+  margin-top: 3.6rem;
+}
+.home-title{
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+}
+.home-img{
+  max-width: 100%;
+  max-height:100%;
+  width: 16rem;
+  border: 4px solid #000000!important;
+  border-radius: 400px 250px 600px 300px!important;
+  z-index: -1;
+}
+.home-para{
+  margin-top: 4rem;
+}
+.home-tagline{
+  margin-top: 0.5rem;
+}
+.donate-btn{
+  margin-bottom: 0.3rem;
+}
+/*/home*/
+
+/*milestones*/
+.milestones-container{
+  background-color: #000000;
+  margin-top: 2rem;
+}
+.milestone-h{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.milestone-val{
+  color:#F90000;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+.milestone-icons{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -1.5rem;
+}
+/*/milestones*/
+
+/*project*/
+.project-container{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+.project-item{
+  width:100%;
+}
+.project-img{
+  width: 25rem;
+  max-width: 100%;
+  border: 4px solid #000000!important;
+  border-radius:30% 70% 38% 62% / 53% 11% 89% 47%!important;
+  margin-top: 1.5rem;
+}
+.project-img3{
+  width: 28rem;
+  margin-top: 2rem;
+}
+.project-title{
+  margin-top: 2rem;
+  font-size: 2rem!important;
+  text-align:center;
+}
+.projgress{
+  .margin-top: 1rem;
+}
+.progress-bar{
+  background-color: black!important;
+}
+.fund-pitch{
+  margin-top: 1rem;
+}
+.project-fund-btn{
+  margin-top: -1.5rem;
+  background-color: #000000!important;
+}
+.carousel-indicators{
+  margin-top: 2rem!important;
+  position: relative;
+  top: 15rem;
+}
+/*/project*/
+/*footer*/
+.footer-container{
+  margin-top: 4rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+.icon-container{
+  position: relative;
+  top: 0.5rem;
+}
+.foot-icn{
+  margin-left: 0.8rem;
+  margin-top: 2rem;
+  color: white;
+}
+.footer-rule{
+  color: white;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.footer-credit{
+  color: white;
+  text-decoration: none;
+}
+/*/footer*/
+/*responsiveness*/
+@media (max-width:575px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /*/navbar/
+  /*home*/
+  .home-container{
+    background-color:white;
+  }
+  .home-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1.5rem;
+  }
+  .home-para{
+    margin-top: 1rem;
+  }
+  .home-tagline{
+    margin-top: 2rem;
+  }
+  .donate-btn{
+      margin-top: 0.1rem;
+  }
+  /*/home*/
+  /*project*/
+  .project-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-indicators{
+    margin-top: 2rem!important;
+    position: relative;
+    top: 17rem;
+  }
+  /*/project*/
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /*/navbar*/
+  /*home*/
+  .home-container{
+    background-color: white;
+  }
+  .home-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+  }
+  .home-para{
+    margin-top: 1rem;
+  }
+  .home-tagline{
+    margin-top: 2rem;
+  }
+  .donate-btn{
+      margin-top: 0.3rem;
+  }
+  /*/home*/
+  /*project*/
+  .project-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-indicators{
+    margin-top: 2rem!important;
+    position: relative;
+    top: 17rem;
+  }
+  /*/project*/
+}
+/* Medium devices (tablets,mobiles 768px and up)*/
+@media (min-width: 768px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /*/navbar*/
+  /*home*/
+  .home-container{
+    background-color:white;
+  }
+  .home-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2.5rem;
+  }
+  .home-para{
+    margin-top: 2rem;
+  }
+  .home-tagline{
+    margin-top: 1rem;
+  }
+  .donate-btn{
+      margin-top: 0.5rem;
+  }
+  /*/home*/
+  /*project*/
+  .project-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-indicators{
+    margin-top: 2rem!important;
+    position: relative;
+    top: 17rem;
+  }
+  /*/project/
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 0.001rem;
+    font-size: 1.1rem;
+  }
+  /*/navbar*/
+  /*home*/
+  .home-container{
+    background-color: white;
+  }
+  .home-img{
+    margin-top: -1rem;
+  }
+  .home-para{
+    margin-top: 8rem;
+  }
+  .home-tagline{
+    margin-top: 4.5rem;
+  }
+  .donate-btn{
+      margin-top: 0.5rem;
+  }
+  /*/home*/
+  /*milestones*/
+  .milestones-container{
+    height: 10rem;
+  }
+  /*/milestones*/
+
+  /*project*/
+  .carousel-control-prev{
+    position: relative;
+    left: -3.7rem!important;
+  }
+  .carousel-control-next{
+    position: relative;
+    left: 54rem!important;
+    width: 10rem!important;
+  }
+  /*/project*/
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+  /*home*/
+  .home-container{
+    background-color: white;
+  }
+  /*/home*/
+  /*project*/
+  .carousel-control-prev{
+    position: relative;
+    left: -2.5rem!important;
+  }
+  .carousel-control-next{
+    position: relative;
+    left: 65.5rem!important;
+    width: 9rem!important;
+  }
+  /*/project*/
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px){
+  /*home*/
+  .home-container{
+    background-color: white;
+  }
+  .home-img{
+    margin-top: 1rem;
+  }
+  .home-para{
+    margin-top: 10rem;
+  }
+  /*/home*/
+  /*project*/
+  .carousel-control-prev{
+    position: relative;
+    left: -3rem!important;
+    top:8rem!important;
+  }
+  .carousel-control-next{
+    position: relative;
+    left: 65.5rem!important;
+    top: 8rem!important;
+  }
+  /*/project*/
+}
+/*/responsiveness*/
