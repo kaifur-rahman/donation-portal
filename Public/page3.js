@@ -42,8 +42,8 @@ var options = {
         location.replace("/success.html");
     },
     "prefill": {
-        "name": "Gaurav Kumar",
-        "email": "gaurav.kumar@example.com",
+        "name": fName+" "+lName,
+        "email": email,
         "contact": "9999999999"
     },
     "notes": {
