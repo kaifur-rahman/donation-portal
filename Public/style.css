@@ -9,6 +9,7 @@
 .offcanvas_custom{
   background-color: black!important;
 }
+
 .nav_item_custom{
   margin-left: 1.5rem;
 }
@@ -143,6 +144,9 @@
   .nav_item_custom{
     margin-top: 1rem;
     font-size: 1.5rem;
+  }
+  .offcanvas_custom{
+    max-width: 70%!important;
   }
   /*/navbar/
   /*home*/

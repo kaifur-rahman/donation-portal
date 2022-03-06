@@ -5,7 +5,13 @@ document.getElementById("gridCheck").addEventListener("click",proceedActive);
 $(".crossIcn1").hide();
 $(".crossIcn2").hide();
 $(".crossIcn3").hide();
-
+//disbaling go keyboard button
+$("body").keydown(function(){
+    if(event.keyCode == 13) {
+        document.activeElement.blur();
+        return false;
+    }
+});
 //function to make proceed button active
 function proceedActive(){
   //storing values of input box to check

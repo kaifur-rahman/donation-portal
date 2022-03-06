@@ -4,6 +4,7 @@
 }
 .offcanvas_custom{
   background-color: black!important;
+  max-width: 100%!important;
 }
 .nav_item_custom{
   margin-left: 1.5rem;
@@ -53,3 +54,40 @@
   text-decoration: none;
 }
 /*/footer*/
+/*responsiveness*/
+@media (max-width:575px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .offcanvas_custom{
+    max-width: 70%!important;
+  }
+  /*/navbar*/
+}
+@media (min-width: 576px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /*/navbar*/
+}
+@media (min-width: 768px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /*/navbar*/
+}
+@media (min-width: 992px){
+  /*navbar*/
+  .nav_item_custom{
+    margin-top: 0.001rem;
+    font-size: 1.1rem;
+  }
+}
+
+/*/responsiveness*/
