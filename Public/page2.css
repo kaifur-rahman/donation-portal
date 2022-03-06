@@ -87,7 +87,7 @@ h1{
 /*responsiveness*/
 @media (max-width: 768px){
   body{
-    background-color: !important;
+    background-color:!important;
   }
   .inputBox{
     width: 100%!important;
@@ -95,6 +95,15 @@ h1{
   .formLabel{
     position: relative;
     left: 0%;
+  }
+  .footer-container{
+    position: fixed;
+    bottom: 0;
+  }
+
 }
+
+
+
 
 /*/responsiveness*/
